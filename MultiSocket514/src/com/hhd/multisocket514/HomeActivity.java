@@ -62,6 +62,8 @@ public class HomeActivity extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
+		
+		//点击事件
 
 		FragmentManager fm = getFragmentManager();
 		FragmentTransaction transaction = fm.beginTransaction();
