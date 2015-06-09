@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MultiSocket</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    
+    <string name="tab_function">查找服务</string>
+    <string name="tab_news_center">查找设备</string>
+    <string name="tab_smart_service">音乐</string>
+    <string name="tab_gov_affairs">录音</string>
+    <string name="tab_setting">播放</string>
+    
+    <string name="music">音乐</string>
+    <string name="sound">音响设备</string>
+    <string name="record">录音设备</string>
+    
+
+</resources>

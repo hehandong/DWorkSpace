@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP地址："
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvLeftSourceIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="左声道的来源IP："
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvLeftTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="左声道的来源声道："
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvRightSourceIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="右声道的来源IP："
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvRightTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="右声道的来源声道："
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

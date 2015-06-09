@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP："
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/leftTrackBuff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="左声道缓存："
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/rightTrackBuff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="右声道缓存："
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

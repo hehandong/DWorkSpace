@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0" >
+
+    
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/main_radio"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:paddingTop="2dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/bottom_tab_bg"
+        android:orientation="horizontal" >
+ 
+        <RadioButton
+            android:id="@+id/rb_searchserver"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_searchserver"
+            android:text="@string/tab_function" />
+
+
+        <RadioButton
+            android:id="@+id/rb_searchdevice"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_searchdevice"
+            android:text="@string/tab_news_center" />
+
+
+        <RadioButton
+            android:id="@+id/rb_musicservice"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_musicservice"
+            android:text="@string/tab_smart_service" />
+
+
+        <RadioButton
+            android:id="@+id/rb_recordserver"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_recordserver"
+            android:text="@string/tab_gov_affairs" />
+
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_setting"
+            android:text="@string/tab_setting" />
+    </RadioGroup>
+
+</LinearLayout>
